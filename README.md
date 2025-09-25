@@ -26,11 +26,14 @@ the morning cafe website is designed to represent a modern coffee shop that valu
 - Week 5: Testing and improvements
 - Week 6: Documentation, GitHub upload, and submission
 ## Changelog
-- v1.0 (Initial Commit): Created project structure and basic HTML pages.  
+- v1.0 (Initial Commit): created a style.css file to add css on my website 
 - v1.1: Added services with card layout and images.  
-- v1.2: Implemented enquiry form with JavaScript success message.  
-- v1.3: Updated contact page with café contact details and form.  
-- *v1.4: Added footer with location, email, phone, and social media links.
+- ### Changed
+- Headings inside `.info` styled with `text-align: center` for consistency.
+- Paragraphs inside `.info` given consistent spacing and readable font-size.
+-### Fixed
+- Removed inline `width`/`height` from `<img>` elements, replaced with responsive CSS.
+- Improved laptop responsiveness with media queries (`@media min-width: 1024px)
   
 ##References
 Venter, C. (2023). Domain Names & Website Hosting Answered - Domains.co.za. [online] Domains.co.za Blog. Available at: https://www.domains.co.za/blog/domain-names-amp-website-hosting-answered/ [Accessed 14 Aug. 2025]. 
